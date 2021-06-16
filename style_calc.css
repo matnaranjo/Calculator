@@ -1,0 +1,101 @@
+#total{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#container{
+    background-color: #484A61;
+    display:block; 
+    margin-right: auto;
+    margin-left: auto;
+    right: 50%;
+    left: 50%;
+    width: 450px;
+    height:680px;
+    border-radius:20px; 
+}
+div[id~=superior]{
+    height: 100px;
+    width: 100%;
+}
+
+/* Color numeros en pantalla: #444d50 */
+/* Color numeros dentro de tecla #cbcddc */
+div [class=seccion]{
+    width: 100%;
+}
+#borde{ 
+    width: 100%;
+    height: 30px;
+}
+button[class~=tecla]{
+    font-size:2.5em ;
+    color: #cbcddc ;
+    background: #9896a2;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#top{
+    height: 215px;
+}
+.screen{
+    background: #cfe3e2;
+    height: 100px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+}
+div[id=resultados]{
+    font-size: 3em;
+    height: 70px;
+    width: 100%;
+    text-align: right;
+}
+div[id=operaciones]{
+    height:20px;
+    width: 380px;
+    text-align: right;
+}
+#c{
+    width: 308px;
+    margin-left: 19px;
+}
+#siete{
+    margin-left: 19px;
+}
+#cuatro{
+    margin-left: 19px;
+}
+#uno{
+    margin-left: 19px;
+}
+#cero{
+    margin-left: 19px;
+}
+#mas{
+    width: 100px;
+}
+#mid{
+    height: 300px;
+
+}
+#mid > *{
+    width: 100px;
+}
+#bot{
+    height: 100px;
+}
+#cero{
+    width: 204px;
+}
+#point{
+    width: 100px;
+}
+#equ{
+    width: 100px;
+}
+#margenpantalla{
+    height: 15px;
+}

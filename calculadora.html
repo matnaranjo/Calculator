@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type= "text/css" href="./style_calc.css">
+    <script src="./js_calc.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="margen superior"></div>
+    <div id="total">
+        <!-- <div class="principal" id="izq"></div> -->
+        <div class="principal" id="container">
+            <div class="seccion" id="borde"></div>
+            <div class="seccion" id="top">
+                <div class= "screen">
+                    <div class="pantalla" id="operaciones"></div>
+                    <div class="pantalla" id= "resultados"></div>
+                </div>
+                <div id= "margenpantalla"></div>
+                <button onclick="limp()" value="clear" class="tecla izquierda" id="c">
+                    c
+                </button>
+                <button onclick="cambio(document.getElementById('mas').value)"  value="add" class="tecla operacion" id="mas">
+                    +
+                </button>
+            </div>
+            <div class="seccion" id="mid">
+                <button onclick="ingreso(document.getElementById('siete').value)" value="7" class="tecla izquierda" id="siete">
+                    7
+                </button>
+                <button onclick="ingreso(document.getElementById('ocho').value)" value="8" class="tecla" id="ocho">
+                    8
+                </button>
+                <button onclick="ingreso(document.getElementById('nueve').value)" value="9" class="tecla" id="nueve">
+                    9
+                </button>
+                <button onclick="cambio(document.getElementById('menos').value)" value="min" class="tecla operacion" id="menos">
+                    -
+                </button>
+                <button onclick="ingreso(document.getElementById('cuatro').value)" value="4" class="tecla izquierda" id="cuatro">
+                    4
+                </button>
+                <button onclick="ingreso(document.getElementById('cinco').value)" value="5" class="tecla" id="cinco">
+                    5
+                </button>
+                <button onclick="ingreso(document.getElementById('seis').value)" value="6" class="tecla" id="seis">
+                    6
+                </button>
+                <button onclick="cambio(document.getElementById('mult').value)" value="mult" class="tecla operacion" id="mult">
+                    x
+                </button>
+                <button value="1" class="tecla izquierda" id="uno" onclick="ingreso(document.getElementById('uno').value)">
+                    1
+                </button>
+                <button onclick="ingreso(document.getElementById('dos').value)" value="2" class="tecla" id="dos">
+                    2
+                </button>
+                <button onclick="ingreso(document.getElementById('tres').value)" value="3" class="tecla" id="tres">
+                    3
+                </button>
+                <button onclick="cambio(document.getElementById('div').value)" value="div" class="tecla operacion" id="div" >
+                    ÷
+                </button>
+            </div>
+            <div class="seccion" id="bot">
+                <button onclick="ingreso(document.getElementById('cero').value)" value="0" class="tecla izquierda" id="cero">
+                    0
+                </button>
+                <button onclick="puntuacion(document.getElementById('point').value)" value="." class="tecla" id="point">
+                    .
+                </button>
+                <button onclick="equ()" value="equ" class="tecla" id="equ">
+                    =
+                </button>
+            </div> 
+        <!-- <div class="principal" id="der"></div> -->
+    </div>
+    
+    
+</body>
+</html>
